@@ -36,5 +36,32 @@ body {
 
 .link--cta {
     font-size: 16px;
-    color:aquamarine;
+    color: maroon;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.link--cta:hover {
+    color: transparent;
+}
+
+/* Parallax Section */
+
+.parallax {
+    background-image: url('resources/images/phone.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.parallax-content {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
 }
