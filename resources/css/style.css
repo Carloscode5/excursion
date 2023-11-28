@@ -36,13 +36,13 @@ body {
 
 .link--cta {
     font-size: 16px;
-    color: maroon;
+    color: midnightblue;
     text-decoration: none;
-    transition: color 0.3s ease;
+    transition: color 0.5s ease;
 }
 
 .link--cta:hover {
-    color: transparent;
+    color: gainsboro;
 }
 
 /* Parallax Section */
